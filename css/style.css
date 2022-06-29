@@ -1,0 +1,359 @@
+.title-h2 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+}
+.btn {
+    border: none;
+}
+/*-------Header--------*/
+body {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+.header-section {
+    background-image: url(../img/background-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.container-header {
+    padding-top: 20px;
+}
+.logo-img {
+    width: 60px;
+}
+.btn-menu {
+    background: #F7654A;
+    width: 50px;
+    height: 50px;
+}
+.header-text {
+    max-width: 743px;
+    margin: auto;
+    margin-top: 110px;
+    margin-bottom: 170px;
+}
+.title-header {
+    font-size: 64px;
+    font-weight: 500;
+}
+.description-header {
+    font-size: 18px;
+    font-weight: 500;
+}
+.block-advantages {
+    background: #F7F7F7;
+    position: relative;
+    bottom: -150px;
+    padding: 55px;
+}
+.age-number {
+    font-size: 72px;
+    font-weight: 500;
+    color: #F7654A;
+}
+.age-text {
+    font-weight: 500;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.age-description {
+    font-weight: 500;
+    font-size: 18px;
+    color: #999999;
+}
+
+/*--------------Проекты----------------*/
+.projects {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.project-h2{
+    margin-bottom: 60px;
+}
+.img-project {
+    width: 100%;
+}
+.border-project {
+    background: #F7654A;
+    width: 55px;
+    height: 6px;
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+.title-project {
+    font-weight: 500;
+    font-size: 24px;
+    color: #404149;
+    margin-bottom: 20px;
+}
+.text-project {
+    font-size: 16px;
+    color: #999999;
+}
+/*-------Блок формы Проект---------*/
+.section-form {
+    background: #F7654A;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.text-form-head {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin: 0;
+}
+.text-form-footer {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin: 0;
+}
+.btn-form-project {
+    display: flex;
+    background: #FFFFFF;
+    color: black;
+    width: 175px;
+    height: 49px;
+    justify-content: center;
+    align-items: center;
+}
+.text-form-project {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    margin: 0;
+    margin-left: 15px;
+}
+/*--------Чем мы занимаемся?---------*/
+.we-do {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.title-we-do {
+    margin-bottom: 66px;
+}
+.block-we-do {
+    background: #F7F7F7;
+    padding: 59px 88px;
+}
+.block-we-do-img {
+    width: 60px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+.project-images {
+    width: 100%;
+}
+/*-------------Ответы на вопросы------------------*/
+.answers {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.title-answer {
+    margin-bottom: 50px;
+}
+.accordion-button {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F7654A;
+}
+/*------------Партнеры---------------*/
+.section-partner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #404149;
+}
+.partner-images {
+    margin: -10px;
+}
+.title-partner {
+    color: #ffffff;
+    margin-bottom: 60px;
+}
+.partner-img {
+    width: 170px;
+    padding: 10px;
+}
+/*------------Отзывы---------------*/
+.section-reviews {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.title-review {
+    margin-bottom: 60px;
+}
+.block-review {
+    padding: 30px;
+    background: #F7F7F7;
+}
+.review-img {
+    width: 45px;
+    margin-bottom: 20px;
+}
+.text-review {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #999999;
+}
+.map-review {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+}
+.map-review span {
+    color: #F7654A;
+}
+/*------------ Контакты ---------------*/
+.section-contacts {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.title-contacts {
+    margin-bottom: 60px;
+}
+.img-contact {
+    width: 45px;
+}
+.contact-item-title {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #999999;
+}
+.contact-item-text {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+.contact-item-tel {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.contact-item-mail {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F7654A;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.img-block-contact{
+    height: 60px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+/*------------ФУТЕР----------------*/
+.section-footer {
+    background: #404149;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+@media (max-width:576px) {
+    .title-header {
+        font-size: 54px;
+    }
+    .age-number {
+        font-size: 60px;
+    }
+    .age-text {
+        font-size: 30px;
+    }
+    .header-text {
+        margin-top: 70px;
+        margin-bottom: 0;
+    }
+    .block-advantages {
+        padding: 0;
+        bottom: -80px;
+    }
+    .advantage {
+        min-width: 100px;
+    }
+    h2,h3 {
+        font-size: 28px !important;
+    }
+    .text-form-head {
+        font-size: 36px;
+    }
+    .text-form-footer {
+        font-size: 20px;
+    }
+    .section-form {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .section-form .justify-content-end {
+        justify-content: center !important;
+        margin-top: 10px;
+    }
+    .projects {
+        margin-top: 100px;
+        margin-bottom: 0px;
+        padding-bottom: 60px;
+    }
+    .we-do {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .answers {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .section-partner {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .section-reviews {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .section-contacts {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .title-review {
+        margin-bottom: 30px;
+    }
+    .title-contacts {
+        margin-bottom: 30px;
+    }
+    .contact-item-text {
+        font-size: 20px;
+    }
+    .contact-item-tel {
+        font-size: 20px;
+    }
+    .contact-item-mail {
+        font-size: 20px;
+    }
+    .contact-item-title {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+}
