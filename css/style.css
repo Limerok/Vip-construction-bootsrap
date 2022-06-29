@@ -291,6 +291,7 @@ body {
     .block-advantages {
         padding: 0;
         bottom: -80px;
+        flex-wrap: wrap;
     }
     .advantage {
         min-width: 100px;
@@ -300,9 +301,12 @@ body {
     }
     .text-form-head {
         font-size: 36px;
+        line-height: 45px;
+        text-align: center;
     }
     .text-form-footer {
         font-size: 20px;
+        line-height: 24px;
     }
     .section-form {
         padding-top: 20px;
@@ -324,6 +328,9 @@ body {
     .answers {
         margin-top: 50px;
         margin-bottom: 50px;
+    }
+    .accordion-button {
+        font-size: 18px;
     }
     .section-partner {
         padding-top: 50px;
@@ -355,5 +362,8 @@ body {
     .contact-item-title {
         font-size: 20px;
         margin-bottom: 0px;
+    }
+    .offcanvas,.offcanvas-end {
+        max-width: 50%;
     }
 }
