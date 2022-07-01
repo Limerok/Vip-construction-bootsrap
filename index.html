@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VIP CONSTRUCTION</title>
 
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -385,7 +387,12 @@
                     <h3 class="title-h2 text-center title-partner">
                         Наши партнеры
                     </h3>
-                    <div class="partner-images d-flex justify-content-between flex-wrap">
+                    <div id="slider" class="partner-images owl-carousel owl-theme">
+                        <img src="./img/partner-1.png" alt="Наш партнёр Berksho" class="partner-img">
+                        <img src="./img/partner-1.png" alt="Наш партнёр Berksho" class="partner-img">
+                        <img src="./img/partner-1.png" alt="Наш партнёр Berksho" class="partner-img">
+                        <img src="./img/partner-1.png" alt="Наш партнёр Berksho" class="partner-img">
+                        <img src="./img/partner-1.png" alt="Наш партнёр Berksho" class="partner-img">
                         <img src="./img/partner-1.png" alt="Наш партнёр Berksho" class="partner-img">
                         <img src="./img/partner-1.png" alt="Наш партнёр Berksho" class="partner-img">
                         <img src="./img/partner-1.png" alt="Наш партнёр Berksho" class="partner-img">
@@ -542,5 +549,26 @@
         </div>
     </section>
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            let i = 3;
+            if( window.innerWidth >= 768 ){
+                i = 5;
+            } else {
+                i = 2;
+            } 
+            const slider = $("#slider").owlCarousel({
+                items: i,
+                loop:true,
+                margin:10,
+                nav:false,
+                dots: false,
+                autoplay: true,
+                autoplayTimeout: 3000,
+            });
+        });
+    </script>
 </body>
 </html>
