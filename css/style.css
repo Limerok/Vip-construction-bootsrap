@@ -234,6 +234,7 @@ body {
     font-size: 24px;
     line-height: 36px;
     color: #999999;
+    text-align: center;
 }
 .contact-item-text {
     font-weight: 500;
@@ -273,6 +274,27 @@ body {
     line-height: 22px;
     color: #FFFFFF;
 }
+@media (max-width:992px) {
+    .header-text {
+        margin-bottom: 0px;
+    }
+    .section-form {
+        text-align: center;
+    }
+    .section-form .justify-content-end {
+        justify-content: center !important;
+        margin-top: 20px;
+    }
+    .item-contact {
+        margin-bottom: 20px;
+    }
+    .section-contacts {
+        padding-bottom: 50px;
+    }
+    .projects {
+        padding-bottom: 13px;
+    }
+}
 
 @media (max-width:576px) {
     .title-header {
@@ -290,6 +312,7 @@ body {
     }
     .block-advantages {
         padding: 0;
+        padding-bottom: 20px;
         bottom: -80px;
         flex-wrap: wrap;
     }
